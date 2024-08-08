@@ -22,7 +22,6 @@ const Features: React.FC = () => {
                     
                 </div>
                 <div className="md:w-1/2 p-6">
-                <ScrollParallax>
                     <div className='flex'>
                         <h2 className="text-4xl w-80 font-bold mb-4">Scoops Formula Calculator</h2>
                         <img src={cup} alt="" className=' h-16' />
@@ -31,7 +30,6 @@ const Features: React.FC = () => {
                     <p className="text-gray-700 mb-4">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                     </p>
-                    </ScrollParallax>
                 </div>
             </div>
             <div className="bg-white mt-20 flex flex-col md:flex-row items-center justify-between w-full md:w-3/4">

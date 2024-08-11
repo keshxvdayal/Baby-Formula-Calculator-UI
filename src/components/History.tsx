@@ -11,6 +11,7 @@ import { ScrollParallax } from "react-just-parallax";
 import phone1 from "../assets/new/Cost Calculator.png";
 import phone2 from "../assets/new/Scoop Calculator.png";
 import phone3 from "../assets/new/Feed Calculator.png"
+import ring from "../assets/new/Semicircle.png"
 
 
 const Features: React.FC = () => {
@@ -66,6 +67,9 @@ const Features: React.FC = () => {
                     How many teaspoons to 5 oz of breastmilk? Is the baby getting enough nutrition with the feeding parents are giving? Feed Calculator has a variety of calculations to help talk to your patients and address any issues immediately just the formula you will be using, select if you are using water or breastmilk and then what you want to calculate.
                     </p>
                 </div>
+            </div>
+            <div className=''>
+            <img src={ring} alt="" className=' absolute right-1 w-28 md:w-44 ' />
             </div>
         </div>
     );

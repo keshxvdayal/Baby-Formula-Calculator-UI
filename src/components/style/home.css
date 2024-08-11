@@ -11,3 +11,8 @@
         display: none;
     }
 }
+
+.about-bg{
+    background: url("../../assets/new/About\ Bg\ Line.png");
+    background-size: cover;
+}

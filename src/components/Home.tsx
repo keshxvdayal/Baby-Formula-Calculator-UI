@@ -25,7 +25,7 @@ const BabyFormulaCalculator: React.FC = () => {
       
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="md:relative md:bottom-80 md:left-10 bottom-20 ">
-            <div className="space-x-4">
+            <div className="space-x-4 logos">
               <FaFacebookF className="text-teal-800 m-4 text-xl" />
               <FaTwitter className="text-teal-800  m-4 text-xl" />
               <FaLinkedinIn className="text-teal-800 m-4 text-xl" />

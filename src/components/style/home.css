@@ -2,3 +2,12 @@
     background-image: url("../../assets/new/Hero\ Section\ Background.png");
     background-size: cover
 }
+/* .logos{
+    display: none;
+} */
+
+@media (max-width: 768px) {
+    .logos{
+        display: none;
+    }
+}

@@ -22,7 +22,7 @@ const Footer = () => {
       </a>
       <span className="hidden md:inline">|</span>
       <a href="#history" className="hover:underline">
-        History
+        Features
       </a>
       <span className="hidden md:inline">|</span>
       <a href="#testimonials" className="hover:underline">

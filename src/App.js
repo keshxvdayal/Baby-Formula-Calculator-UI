@@ -5,11 +5,12 @@ import Aboutus from './components/Aboutus.tsx';
 import History from './components/History.tsx';
 import Testimonials from './components/Testimonials.tsx';
 import Footer from './components/Footer.tsx';
+import Navbar from "./components/Navbar.tsx"
 
 const App = () => {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar  />
       <Home/>
       <Aboutus/>
       <History/>

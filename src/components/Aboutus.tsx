@@ -3,7 +3,7 @@ import profileImage from '../assets/aboutimg.png'; // Replace with the actual pa
 
 const AboutMe: React.FC = () => {
   return (
-    <div className="min-h-screen p-6  flex flex-col items-center" id='aboutus'>
+    <div className="min-h-screen p-6 mt-28 flex flex-col items-center" id='aboutus'>
       <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold mb-10">About Me</h1>
       <div className="rounded-lg flex flex-col md:flex-row items-center md:items-start justify-center p-6 w-full sm:w-3/4">
         

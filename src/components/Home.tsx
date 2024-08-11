@@ -14,9 +14,8 @@ const BabyFormulaCalculator: React.FC = () => {
     const parallaxRef = useRef(null);
     return (
         <div className=" background bg-none md:bg-cover " id='home'>
-            {/* <Navbar/> */}
         <div className="text-center mb-10 flex flex-col pt-28 items-center">
-          <h1 className="text-4xl  sm:text-5xl md:text-6xl font-bold w-full sm:w-3/4 lg:w-1/2 text-white drop-shadow-lg">
+          <h1 className="text-4xl  sm:text-5xl md:text-6xl font-bold w-5/6 sm:w-3/4 lg:w-1/2 text-white md:drop-shadow-lg">
             Baby Formula Calculator Application
           </h1>
           <p className="text-white mt-4 text-center w-3/4 sm:w-1/2 lg:w-1/2">

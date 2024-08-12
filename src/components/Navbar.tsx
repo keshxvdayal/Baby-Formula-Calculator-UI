@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react"
-// import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { MinusIcon, XMarkIcon } from "@heroicons/react/24/outline"
 import Logo from "../assets/logo.png" // Update with the correct path to your logo
 import "./style/nav.css"
@@ -21,6 +20,14 @@ const Header = () => {
 		return () => window.removeEventListener("scroll", handleScroll)
 	}, [])
 
+	const handleSmoothScroll = (event, targetId) => {
+		event.preventDefault()
+		const targetElement = document.getElementById(targetId)
+		if (targetElement) {
+			targetElement.scrollIntoView({ behavior: "smooth" })
+		}
+	}
+
 	return (
 		<header
 			className={`md:w-5/6 w-full md:relative md:left-32 top-3 md:rounded-full bg-black isolate bg-nav shadow-lg ring-1 ring-black/5 mb-16 transition-transform duration-300 ${
@@ -34,16 +41,24 @@ const Header = () => {
 				<div className='hidden md:flex'>
 					<ul className='flex'>
 						<li className='p-7 text text-white text-1xl'>
-							<a href='#home'>Home</a>
+							<a href='#home' onClick={(e) => handleSmoothScroll(e, 'home')}>
+								Home
+							</a>
 						</li>
 						<li className='p-7 text text-white text-1xl'>
-							<a href='#aboutus'>About Us</a>
+							<a href='#aboutus' onClick={(e) => handleSmoothScroll(e, 'aboutus')}>
+								About Us
+							</a>
 						</li>
 						<li className='p-7 text text-white text-1xl'>
-							<a href='#features'>Features</a>
+							<a href='#features' onClick={(e) => handleSmoothScroll(e, 'features')}>
+								Features
+							</a>
 						</li>
 						<li className='p-7 text text-white text-1xl'>
-							<a href='#testimonials'>Testimonials</a>
+							<a href='#testimonials' onClick={(e) => handleSmoothScroll(e, 'testimonials')}>
+								Testimonials
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -71,16 +86,24 @@ const Header = () => {
 				<div className='md:hidden backdrop-blur-lg rounded-none'>
 					<ul className='flex flex-col items-center'>
 						<li className='p-4 text text-white'>
-							<a href='#home'>Home</a>
+							<a href='#home' onClick={(e) => handleSmoothScroll(e, 'home')}>
+								Home
+							</a>
 						</li>
 						<li className='p-4 text text-white'>
-							<a href='#aboutus'>About Us</a>
+							<a href='#aboutus' onClick={(e) => handleSmoothScroll(e, 'aboutus')}>
+								About Us
+							</a>
 						</li>
 						<li className='p-4 text text-white'>
-							<a href='#features'>Features</a>
+							<a href='#features' onClick={(e) => handleSmoothScroll(e, 'features')}>
+								Features
+							</a>
 						</li>
 						<li className='p-4 text text-white'>
-							<a href='#testimonials'>Testimonials</a>
+							<a href='#testimonials' onClick={(e) => handleSmoothScroll(e, 'testimonials')}>
+								Testimonials
+							</a>
 						</li>
 						<li className='p-4 '>
 							<a
@@ -100,4 +123,3 @@ const Header = () => {
 }
 
 export default Header
-

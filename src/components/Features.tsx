@@ -48,30 +48,11 @@ const Features: React.FC = () => {
 					</ScrollParallax>
 				</div>
 				<div className='md:w-1/2 flex justify-center'>
-					{/* <img src={bg} alt="" className=' h-60 w-96 relative top-56 bg-teal-700' /> */}
 					<img src={phone3} alt='Scoops Calculator' className='  md:h-4/5' />
 				</div>
 			</div>
-			{/* <div className='bg-white flex flex-col md:flex-row items-center justify-between w-full md:w-full'>
-				<div className='md:w-1/2 md:ml-44 flex justify-center'>
-					<img src={phone3} alt='Scoops Calculator' className=' md:w-4/5' />
-				</div>
-				<div className='md:w-3/4 p-6'>
-					<div className='flex'>
-						<h2 className='text-4xl w-80 font-bold mb-4'>Feed Formula Calculator</h2>
-						<img src={feed} alt='' className=' h-16 relative md:bottom-10 md:h-28' />
-					</div>
-
-					<p className='text-gray-700 md:w-3/4 mb-4'>
-						How many teaspoons to 5 oz of breastmilk? Is the baby getting enough nutrition with the
-						feeding parents are giving? Feed Calculator has a variety of calculations to help talk
-						to your patients and address any issues immediately just the formula you will be using,
-						select if you are using water or breastmilk and then what you want to calculate.
-					</p>
-				</div>
-			</div> */}
-			<div className=''>
-				<img src={ring} alt='' className=' absolute right-1 w-28 md:w-44 ' />
+			<div>
+				<img src={ring} alt='' className=' absolute right-1 w-28 md:w-44' />
 			</div>
 		</div>
 	)

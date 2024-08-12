@@ -77,15 +77,20 @@ const Header = () => {
 							<a href='#aboutus'>About Us</a>
 						</li>
 						<li className='p-4 text text-white'>
-							<a href='#history'>History</a>
+							<a href='#features'>Features</a>
 						</li>
 						<li className='p-4 text text-white'>
 							<a href='#testimonials'>Testimonials</a>
 						</li>
 						<li className='p-4 '>
-							<button className='text-white pr-5 pl-5 pt-1 pb-1 rounded-full button bg-teal-600'>
-								Download Now
-							</button>
+							<a
+								href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'
+								target='_/'
+							>
+								<button className='text-white pr-5 pl-5 pt-1 pb-1 rounded-full button bg-teal-600'>
+									Download Now
+								</button>
+							</a>
 						</li>
 					</ul>
 				</div>

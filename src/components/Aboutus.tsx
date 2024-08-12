@@ -11,7 +11,7 @@ const AboutMe: React.FC = () => {
 					<img
 						src={profileImage}
 						alt='Profile'
-						className='h-96  sm:h-64 md:h-96 shadow-lg shadow-black rounded-lg'
+						className='sm:h-64 md:h-96 shadow-lg shadow-black rounded-lg'
 					/>
 				</div>
 

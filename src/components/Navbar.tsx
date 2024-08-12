@@ -48,7 +48,10 @@ const Header = () => {
 					</ul>
 				</div>
 				<div className='hidden md:block'>
-					<a href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'>
+					<a
+						href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'
+						target='_/'
+					>
 						<button className='text-white pr-6 pl-6 pt-3 pb-3 button rounded-full bg-teal-500'>
 							Download Now
 						</button>

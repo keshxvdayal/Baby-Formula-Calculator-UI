@@ -25,13 +25,13 @@ const BabyFormulaCalculator: React.FC = () => {
 			<div className='flex flex-col md:flex-row justify-center items-center'>
 				<div className='md:relative md:bottom-80 md:left-10 bottom-20 '>
 					<div className='space-x-4 logo relative z-10'>
-						<a href='https://www.facebook.com'>
+						<a href='https://www.facebook.com' target='_/'>
 							<FaFacebookF className='text-teal-800 m-4 text-xl' />
 						</a>
-						<a href='https://www.x.com'>
+						<a href='https://www.x.com' target='_/'>
 							<FaTwitter className='text-teal-800  m-4 text-xl' />
 						</a>
-						<a href='https://www.linkedin.com'>
+						<a href='https://www.linkedin.com' target='_/'>
 							<FaLinkedinIn className='text-teal-800 m-4 text-xl' />
 						</a>
 					</div>
@@ -46,10 +46,13 @@ const BabyFormulaCalculator: React.FC = () => {
 
 					<div className='text-center mb-10'>
 						<div className='flex justify-center space-x-6'>
-							<a href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'>
+							<a
+								href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'
+								target='_/'
+							>
 								<img src={appStore} alt='App Store' className='h-8 sm:h-10 mt-3' />
 							</a>
-							<a href='https://play.google.com/store/games'>
+							<a href='https://play.google.com/store/games' target='_/'>
 								<img src={googlePlay} alt='Google Play' className='h-12 sm:h-16 mb-8' />
 							</a>
 						</div>

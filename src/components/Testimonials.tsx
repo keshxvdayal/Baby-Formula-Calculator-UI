@@ -94,10 +94,13 @@ const Testimonials = () => {
 							</p>
 							<div className='text-center relative md:right-20 md:bottom-10 md:mt-20'>
 								<div className='flex justify-center space-x-4 md:space-x-6'>
-									<a href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'>
+									<a
+										href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'
+										target='_/'
+									>
 										<img src={appstore} alt='App Store' className='h-8 mt-2 sm:h-10' />
 									</a>
-									<a href='https://play.google.com/'>
+									<a href='https://play.google.com/' target='_/'>
 										<img src={playstore} alt='Google Play' className='h-12 sm:h-14' />
 									</a>
 								</div>
@@ -130,7 +133,10 @@ const Testimonials = () => {
 								</p>
 							</div>
 						</div>
-						<a href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'>
+						<a
+							href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'
+							target='_/'
+						>
 							<button className='bg-transparent border-2 border-teal-600 text-teal-600 py-2 px-4 sm:px-6 rounded-lg font-medium hover:bg-teal-600 hover:text-white transition duration-300 w-36 sm:w-44'>
 								Download Now
 							</button>

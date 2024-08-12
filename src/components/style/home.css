@@ -1,10 +1,5 @@
 .background {
-	background: linear-gradient(
-		180deg,
-		rgba(88, 186, 164, 1) 0%,
-		rgba(191, 226, 212, 1) 46%,
-		rgba(222, 239, 231, 1) 100%
-	);
+	    background: linear-gradient(180deg, #58baa4, #bfe2d4 46%, #fff);
 }
 
 @media (min-width: 768px) {

@@ -54,7 +54,7 @@ const Testimonials = () => {
 				<img
 					src={ring}
 					alt=''
-					className='hidden md:block md:absolute left-1.5rem mt-96 md:w-44 w-28'
+					className='hidden md:block md:absolute left-1 mt-96 md:w-44 w-28'
 				/>
 				<div className='grid gap-6 md:left-36 relative sm:grid-cols-1 md:grid-cols-2 md:w-3/4 lg:grid-cols-2 '>
 					{testimonials.map((testimonial, index) => (
@@ -122,10 +122,10 @@ const Testimonials = () => {
 			</div>
 			<div className='flex justify-center mt-20 sm:mt-32 lg:mt-44'>
 				{/* <div className="bg-teal-600 md:w-16 w-24 h-16 md:h-16 relative bottom-24 right-10 rounded-full"></div> */}
-				<section className='bg-teal-100 py-8 sm:py-12 w-3/4 sm:w-5/6 md:w-3/4 rounded-3xl'>
+				<section className='bg-teal-100 py-8 sm:py-12 w-full m-5 sm:w-5/6 md:w-3/4 rounded-3xl'>
 					<div className='max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 sm:px-6'>
-						<div className='flex items-center mb-6 md:mb-0'>
-							<img src={circle} alt='' className='w-10 absolute left-5 mb-48 md:left-40' />
+						<div className='flex items-center mb-6  md:mb-0'>
+							<img src={circle} alt='' className='w-14 absolute left-1 mb-72 md:mt-24 md:left-40' />
 							<div className='ml-4 w-full'>
 								<h2 className='text-xl sm:text-2xl w-full font-bold pb-3'>
 									Get the App Now, Say Goodbye to Formula Calculation Stress!
@@ -141,7 +141,7 @@ const Testimonials = () => {
 							href='https://apps.apple.com/us/app/baby-formula-calc/id6499473129?platform=iphone'
 							target='_/'
 						>
-							<button className='bg-transparent border-2 border-teal-600 text-teal-600 py-2 px-4 sm:px-6 rounded-lg font-medium hover:bg-teal-600 hover:text-white transition duration-300 w-36 sm:w-44'>
+							<button className='bg-transparent w-full border-2 border-teal-600 text-teal-600 py-2 px-4 sm:px-6 rounded-lg font-medium hover:bg-teal-600 hover:text-white transition duration-300 sm:w-44'>
 								Download Now
 							</button>
 						</a>

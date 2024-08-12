@@ -1,18 +1,26 @@
-.background{
-    background-image: url("../../assets/new/Hero\ Section\ Background.png");
-    background-size: cover
+.background {
+	background: linear-gradient(
+		180deg,
+		rgba(88, 186, 164, 1) 0%,
+		rgba(191, 226, 212, 1) 46%,
+		rgba(222, 239, 231, 1) 100%
+	);
 }
-/* .logos{
-    display: none;
-} */
 
+@media (min-width: 768px) {
+	.background {
+		background-image: url("../../assets/new/Hero Section Background.png");
+		background-size: cover;
+	}
+}
 @media (max-width: 768px) {
-    .logos{
-        display: none;
-    }
+	.logos {
+		display: none;
+	}
 }
 
-.about-bg{
-    background: url("../../assets/new/About\ Bg\ Line.png");
-    background-size: cover;
+.about-bg {
+	background: url("../../assets/new/About\ Bg\ Line.png");
+	background-size: cover;
 }
+

@@ -51,7 +51,11 @@ const Testimonials = () => {
 						</p>
 					</div>
 				</ScrollParallax>
-				<img src={ring} alt='' className='absolute left-1 mt-96 md:w-44 w-28' />
+				<img
+					src={ring}
+					alt=''
+					className='hidden md:block md:absolute left-1.5rem mt-96 md:w-44 w-28'
+				/>
 				<div className='grid gap-6 md:left-36 relative sm:grid-cols-1 md:grid-cols-2 md:w-3/4 lg:grid-cols-2 '>
 					{testimonials.map((testimonial, index) => (
 						<div
@@ -121,7 +125,7 @@ const Testimonials = () => {
 				<section className='bg-teal-100 py-8 sm:py-12 w-3/4 sm:w-5/6 md:w-3/4 rounded-3xl'>
 					<div className='max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 sm:px-6'>
 						<div className='flex items-center mb-6 md:mb-0'>
-							<img src={circle} alt='' className='w-16 absolute left-4 mb-48 md:left-40' />
+							<img src={circle} alt='' className='w-10 absolute left-5 mb-48 md:left-40' />
 							<div className='ml-4 w-full'>
 								<h2 className='text-xl sm:text-2xl w-full font-bold pb-3'>
 									Get the App Now, Say Goodbye to Formula Calculation Stress!

@@ -23,8 +23,8 @@ const BabyFormulaCalculator: React.FC = () => {
 			</div>
 
 			<div className='flex flex-col md:flex-row justify-center items-center'>
-				<div className='md:relative md:bottom-80 md:left-10 bottom-20 '>
-					<div className='space-x-4 logo relative z-10'>
+				<div className='hidden md:block md:relative md:bottom-80 md:left-10 bottom-20 md:z-10'>
+					<div className='space-x-4 logo'>
 						<a href='https://www.facebook.com' target='_/'>
 							<FaFacebookF className='text-teal-800 m-4 text-xl' />
 						</a>

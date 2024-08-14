@@ -25,7 +25,7 @@
     overflow-y: auto;
   }
   .popup-bg-white {
-    max-width: 500px; /* Set a fixed width */
+    max-width: 1000px; /* Set a fixed width */
     width: 100%; /* Ensures it doesn't grow beyond 500px */
   }
   

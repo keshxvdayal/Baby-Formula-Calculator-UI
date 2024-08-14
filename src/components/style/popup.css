@@ -1,0 +1,31 @@
+.popup-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  .popup-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .popup-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .popup-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+  /* popup.css */
+.popup-content {
+    max-height: 300px; 
+    overflow-y: auto;
+  }
+  .popup-bg-white {
+    max-width: 500px; /* Set a fixed width */
+    width: 100%; /* Ensures it doesn't grow beyond 500px */
+  }
+  

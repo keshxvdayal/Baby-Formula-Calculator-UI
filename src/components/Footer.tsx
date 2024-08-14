@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
-import Popup from "./Popup";
+// import Popup from "./Popup";
+import Popup from "./Popup.tsx"
 
 const Footer = () => {
   const [showPopup, setShowPopup] = useState(false);

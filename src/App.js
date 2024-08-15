@@ -6,6 +6,7 @@ import Footer from "./components/Footer.tsx"
 import Home from "./components/Home.tsx"
 import Navbar from "./components/Navbar.tsx"
 import Testimonials from "./components/Testimonials.tsx"
+import Disclaimer from "./components/Disclaimer.tsx"
 const App = () => {
 	return (
 		<Router>
@@ -14,6 +15,7 @@ const App = () => {
 			<Aboutus />
 			<Features />
 			<Testimonials />
+			<Disclaimer/>
 			<Footer />
 			<Routes>
 				<Route path='/aboutus' element={<Aboutus />} />
